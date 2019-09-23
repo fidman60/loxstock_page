@@ -1,0 +1,18 @@
+#profileSelect {
+    border: none;
+    background: url(/assets/images/arrow.png) no-repeat right transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+#profileSelectDl {
+    margin-bottom: 20px;
+}
+
+.ddIcon i {
+    font-size: 14px;
+}
+
+.editTextSection {
+    margin-bottom: 10px;
+}

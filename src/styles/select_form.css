@@ -1,0 +1,11 @@
+#formSelect select {
+    border-radius: 2em;
+    border: none;
+    width: 310px;
+    font-size: 15px;
+    color: #192446;
+    background: url(/assets/images/arrow.png) no-repeat right #fbfbf8;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-position-x: 285px;
+}

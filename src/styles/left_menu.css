@@ -1,0 +1,72 @@
+#leftMenuContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    position: fixed;
+    width: 295px;
+    height: 100vh;
+    background-color: #131a27;
+    /*overflow-y: scroll;*/
+    padding: 0;
+}
+
+#leftMenuHeader {
+    width: 100%;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#leftMenuBody {
+    display: flex;
+    flex: 1;
+    background-color: #242e42;
+}
+
+#leftMenuBody > div:first-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 65px;
+    background-color: #131a27;
+}
+
+.leftMenuItem {
+    cursor: pointer;
+    height: 68px;
+    width: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(/assets/images/active.png) no-repeat 65px 0;
+    transition: background-position .4s ease;
+}
+
+.activeLeftMenuItem {
+    background-position: 0 0;
+}
+
+.leftMenuListItem {
+    cursor: pointer;
+    padding: 0 20px !important;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #ced9e0;
+}
+
+.leftMenuListItem > div {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #202a3c;
+    border-top: 1px solid #202a3c;
+}
+
+.listItemIconContainer {
+    width: 35px;
+}
+
+.listItemLabel {
+    flex: 1;
+}

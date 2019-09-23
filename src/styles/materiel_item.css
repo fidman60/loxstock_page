@@ -1,0 +1,40 @@
+.materialItem {
+    background-color: white;
+    padding: 10px 15px;
+    box-shadow: 1px 13px 29px -10px rgba(209,201,209,1);
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.dlSection {
+    display: flex;
+    padding-top: 10px;
+}
+
+.dlSection > div {
+    flex: 1;
+}
+
+.firstDlSection {
+    padding-right: 20px;
+}
+
+.secondDlSection {
+    padding-left: 20px;
+    border-left: 1px solid #e4e4e6;
+}
+
+.infoItem {
+    background-color: #16a2b8;
+    display: inline-block;
+    color: white;
+    font-size: 11px;
+    padding: 2px 5px;
+    border-radius: 5px;
+}
+
+.materialTitle {
+    color: #c2414b;
+    font-weight: bold;
+    font-size: 17px;
+}

@@ -1,0 +1,33 @@
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+    padding-left: 10px;
+}
+
+#searchInput > div:first-child {
+    margin: 0;
+}
+
+#searchInput input{
+    background-color: #fbfbf8;
+    border-radius: 2em;
+    border: none;
+    width: 310px;
+    font-size: 15px;
+    color: #9399a5;
+}
+
+#searchInput i {
+    font-size: 20px;
+}

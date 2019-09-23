@@ -1,0 +1,148 @@
+#firstBar {
+    padding: 5px 0;
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid #eaebef;
+    border-bottom: 1px solid #eaebef;
+}
+
+#loadingPageContainer {
+    padding: 25px 50px;
+    height: 100%;
+}
+
+#secondBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    box-shadow: 0px -5px 18px 0px rgba(210,217,215,1);
+}
+
+#secondBar > div:first-child{
+    background-color: white;
+    padding: 5px;
+    border: 1px solid #eaebef;
+    border-radius: 4px;
+    flex: 1;
+    display: flex;
+}
+
+#secondBar > div:first-child > div:first-child {
+    background-color: #f4f6fb;
+    display: flex;
+    flex: 1;
+    height: 30px;
+    margin-right: 20px;
+    padding: 2px;
+}
+
+#secondBar > div:nth-child(2){
+    width: 30px;
+    margin-left: 10px;
+}
+
+#emptyBarBtn {
+    width: 90px;
+    height: 30px;
+    background-color: #c13e47;
+    border-radius: 4px;
+}
+
+.secondBarMenuItem {
+    border-right: 1px solid #eaebef;
+    flex: 1;
+    padding-left: 10px;
+}
+
+.lastSecondBarMenuItem {
+    border: none;
+}
+
+.loadingPageBlockItem {
+    width: 85px;
+    height: 25px;
+    background-color: #f1f1f1;
+    position: relative;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.closeBlockItem {
+    position: absolute;
+    background: url("/assets/icons/close.png") no-repeat center;
+    width: 12px;
+    height: 12px;
+    border: 2px solid white;
+    border-radius: 6px;
+    right: -6px;
+    top: -6px;
+}
+
+#loadingPageBlocksSection {
+    display: flex;
+    margin-top: 25px;
+}
+
+#loadingBox {
+    margin-top: 20px;
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    box-shadow: 0px 9px 12px 0px rgba(232,229,232,1);
+}
+
+#loadingBox > div:first-child {
+    padding: 30px;
+}
+
+#loadingBox > div:first-child > div {
+    width: 50%;
+    border-right: 1px solid #ececec;
+    height: 80px;
+}
+
+#loadingBox > div:last-child, #loadingBox > div:nth-child(2) {
+    width: 80%;
+    margin: auto;
+}
+
+#loadingBox > div:last-child {
+    padding-top: 20px;
+}
+
+#loadingBox > div:last-child i {
+    font-size: 10px;
+}
+
+#LoadingBoxTextArea {
+    margin-top: 5px;
+    background-color: #f4f6fb;
+    display: block;
+    width: 100%;
+    border: none;
+    resize: none;
+    padding: 10px;
+    font-size: 14px;
+}
+
+@keyframes placeHolderShimmer{
+    0%{
+        background-position: -468px 0
+    }
+    100%{
+        background-position: 468px 0
+    }
+}
+
+.animated-background {
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+    background-size: 1000px 104px;
+    position: relative;
+}
